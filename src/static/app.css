@@ -3,9 +3,9 @@
 }
 
 html {
-  --primary-color: #fa5d0f;
-  --secondary-color: #ffce27;
-  --tertiary-color: #d13405;
+  --primary-color: #3fa9f5;
+  --secondary-color: #89d201;
+  --tertiary-color: #ffc844;
   --code-header-color: #a8a8a8;
   --code-background-color: #f8f8f8;
   --grey: #eee;
@@ -169,4 +169,16 @@ ul.breadcrumb li {
 ul.breadcrumb li+li:before {
   padding: 8px;
   content: "/\00a0";
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.img-128 {
+  width: 128px;
+  height: auto;
+  display: block;
 }

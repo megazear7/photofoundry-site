@@ -1,4 +1,3 @@
-# Photofoundry
 With Photofoundry you can use build images from JSON. It is a Photoshop script that requires a specifically formatted Photoshop file. This script is provided with an array of JSON data that manipualtes that file and saves an image for each item in the array.
 
 ### Use case
@@ -19,7 +18,12 @@ It comes with a Photoshop template to start from. If you open the `template.psd`
 The first four files represent the three items from the JSON array. The fourth file is the same three images combined into a "sheet". By default the script will not produce sheets, but can be configured to combine the images into sheets with how many columns and rows you want. One reason to do this would be to combine your images into printable sheets so that you could then cut out the each image.
 
 ## Getting started
-To get started read this README thoroughly. Then look at the provided PSD template and the example.js file. Once you understand what is going on, start updating the JSON in the `data` method, using the different features of Photofoundry to generate new images. When you are ready, you can resize the template PSD file to be the dimensions you need, and you can start adding your own elements, text, and toggles. Finally, you can write your own JSON in the example.js file to generate your images.
+
+```
+git clone --depth=1 https://github.com/megazear7/photofoundry
+```
+
+To get started read this documentation thoroughly. Then look at the provided PSD template and the example.js file. Once you understand what is going on, start updating the JSON in the `data` method, using the different features of Photofoundry to generate new images. When you are ready, you can resize the template PSD file to be the dimensions you need, and you can start adding your own elements, text, and toggles. Finally, you can write your own JSON in the example.js file to generate your images.
 
 ## How to use Photofoundry
 To use Photofoundry, you first need to update the provided template PSD file. In this file you will see the following folders:

@@ -4,8 +4,8 @@
   "description": "Photofoundry documentation",
   "start_url": "/",
   "display": "standalone",
-  "theme_color": "#fa5d0f",
-  "background_color": "#ffce27",
+  "theme_color": "#3fa9f5",
+  "background_color": "#ffc844",
   "icons": [
     {
       "src": "icons/icon-512x512.png",

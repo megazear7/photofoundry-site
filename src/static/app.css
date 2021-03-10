@@ -6,6 +6,7 @@ html {
   --primary-color: #3fa9f5;
   --secondary-color: #89d201;
   --tertiary-color: #ffc844;
+  --primary-color-dark: #0967aa;
   --code-header-color: #a8a8a8;
   --code-background-color: #f8f8f8;
   --grey: #eee;
@@ -186,6 +187,34 @@ ul.breadcrumb li+li:before {
   width: 128px;
   height: auto;
   display: block;
+}
+
+footer a, footer a:visited {
+  color: var(--primary-color-dark);
+}
+
+footer {
+  text-align: center;
+}
+
+footer ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0;
+}
+
+footer ul li {
+  list-style-type: none;
+  padding-right: 10px;
+}
+
+footer ul li:last-of-type {
+  padding-right: 0px;
+}
+
+footer ul li a {
+  padding: 5px;
 }
 
 @media (min-width: 600px) {

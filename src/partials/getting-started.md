@@ -1,4 +1,4 @@
-With Photofoundry you can use build images from JSON. It is a Photoshop script that requires a specifically formatted Photoshop file. This script is provided with an array of JSON data that manipualtes that file and saves an image for each item in the array.
+With Photofoundry you can use build images from JSON. It is a Photoshop script that requires a specifically formatted Photoshop file. This script is provided with an array of JSON data that manipulates that file and saves an image for each item in the array.
 
 ### Use case
 Photofoundry is great when you need lots of variations to the same basic template. My original use case for building this tool was to create cards for a game. I needed to be able to create hundreds of cards with many variations. I also needed to be able to quickly make changes to lots of cards, and then reprint the new versions. This automates all of that otherwise tedius work.
